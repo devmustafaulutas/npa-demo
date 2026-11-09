@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NPA / Marka Dönüşüm Merkezi</title>
+  <meta name="description" content="NPA, stratejik pazarlama ve bütünleşik iletişim ajansı. Markanın ihtiyacını netleştiriyor, ortak fikri ilgili mecralarda hayata geçiriyoruz." />
+  <meta name="theme-color" content="#0a142b" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="preload" href="./fonts/Costaline-Regular.woff" as="font" type="font/woff" crossorigin />
+  <link rel="preload" href="./fonts/AlsoSans-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <script type="module" crossorigin src="./assets/index-BWB2ldkX.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DRaZxAKE.css">
+</head>
+<body class="is-loading">
+  <!-- Ön yükleyici: sayaç, sonra görüntü mürekkepten doğar -->
+  <div class="loader" aria-hidden="true">
+    <img class="loader__mark" src="./logo/NPA_Sembol_Turuncu_Master.svg" alt="" width="56" height="56" />
+    <div class="loader__bar"><i></i></div>
+    <span class="loader__count">0</span>
+  </div>
+
+  <canvas class="stage" aria-hidden="true"></canvas>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <header class="bar">
+    <a class="bar__logo" href="#top" aria-label="NPA ana sayfa">
+      <img src="./logo/NPA_Yatay_Beyaz_Master.svg" alt="NPA" width="113" height="32" />
+    </a>
+    <a class="bar__cta" href="#iletisim">Görüşme planlayın</a>
+    <button class="bar__menu" aria-expanded="false" aria-controls="menu">
+      <span class="bar__menu-text">Menü</span>
+      <span class="bar__menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Ana menü">
+    <div class="menu__inner">
+      <ul class="menu__links">
+        <li><a href="#yaklasim"><span>Yaklaşım</span></a></li>
+        <li><a href="#atolyeler"><span>Atölyeler</span></a></li>
+        <li><a href="#hizmetler"><span>Hizmetler</span></a></li>
+        <li><a href="#ilkeler"><span>İlkeler</span></a></li>
+        <li><a href="#iletisim"><span>İletişim</span></a></li>
+      </ul>
+      <div class="menu__foot">
+        <a href="mailto:hello@nicheprojectagency.com">hello@nicheprojectagency.com</a>
+        <a href="tel:+905374865082">0537 486 5082</a>
+        <span>Adapazarı / Sakarya</span>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <!-- Açılış: tam ekran yüzey, tek cümle -->
+    <section class="hero" data-stage="yuzey-detay" data-dim="0.62">
+      <div class="hero__inner">
+        <p class="hero__kicker" data-fade>Marka Dönüşüm Merkezi</p>
+        <h1 class="hero__title">
+          <span class="hero__line" data-chars>Beğenmek</span>
+          <span class="hero__line hero__line--indent" data-chars>karar <em>değildir.</em></span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lead" data-fade>Stratejik pazarlama ve bütünleşik iletişim. Markanın ihtiyacını netleştiriyor, ortak fikri ilgili mecralarda hayata geçiriyoruz.</p>
+          <a class="hero__scroll" href="#manifesto" data-fade data-cursor="Kaydır">
+            <span>Hikâyeye in</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Okunur manifesto: açık zemin, kelime kelime aydınlanır -->
+    <section class="manifesto" id="manifesto">
+      <div class="wrap manifesto__inner">
+        <p class="manifesto__text" data-words>Bir markanın görünüşü hakkında konuşurken soru kolayca <q>Beğendik mi?</q> sorusuna döner. Oysa karşımızda yalnızca bir görüntü yoktur. Bir ihtiyaç, ulaşmak istediğimiz insanlar ve markanın verdiği söz vardır.</p>
+        <figure class="manifesto__media" data-parallax>
+          <img src="./img/yuzey-sembol-hd.jpg" alt="NPA sembolünün ince lacivert çizgilerden oluşan üç boyutlu yüzeyi" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Hikâye: dört sahne, sıvı geçişle birbirine akar -->
+    <section class="story" id="yaklasim" data-stage="baglam" data-dim="0.5">
+      <div class="story__sticky">
+        <p class="story__intro">Her çalışma aynı sırayla ilerler:<br />önce bakarız, sonra sorarız.</p>
+
+        <div class="story__words" aria-hidden="true">
+          <span class="story__word" data-chars>Gözlem.</span>
+          <span class="story__word" data-chars>Soru.</span>
+          <span class="story__word" data-chars>Fikir.</span>
+          <span class="story__word" data-chars>Karar.</span>
+        </div>
+
+        <div class="story__texts">
+          <article class="story__text" data-img="baglam">
+            <h2 class="sr-only">Gözlem</h2>
+            <p>Markanın kendisini nasıl anlattığına, insanların onunla nasıl karşılaştığına ve deneyimde neler olduğuna bakarız.</p>
+          </article>
+          <article class="story__text" data-img="ayrinti">
+            <h2 class="sr-only">Soru</h2>
+            <p>Söylenen ile yapılan arasındaki farkı anlamaya çalışırız. Bulguları bir teşhiste toplar, öncelikleri belirleriz.</p>
+          </article>
+          <article class="story__text" data-img="eylem">
+            <h2 class="sr-only">Fikir</h2>
+            <p>Markaya yön verecek ortak fikri geliştiririz. Sezgi ve yaratıcılık bu çalışmanın içindedir; bir önerinin neden doğru olabileceğini de konuşuruz.</p>
+          </article>
+          <article class="story__text" data-img="sonuc">
+            <h2 class="sr-only">Karar</h2>
+            <p>Fikir ilgili uzmanlıklarda hayata geçer. Sonucu değerlendirirken başta koyduğumuz ölçütlere döneriz.</p>
+          </article>
+        </div>
+
+        <ol class="story__rail" aria-hidden="true">
+          <li><span>Keşif</span><i><b></b></i></li>
+          <li><span>Teşhis</span><i><b></b></i></li>
+          <li><span>Çatı fikir</span><i><b></b></i></li>
+          <li><span>Uygulama</span><i><b></b></i></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Atölyeler: büyük liste, her satır sahnedeki görseli değiştirir -->
+    <section class="ateliers" id="atolyeler" data-stage="saha" data-dim="0.72">
+      <div class="wrap">
+        <header class="ateliers__head">
+          <h2 class="title" data-lines>Aynı amaç, farklı uzmanlıklar.</h2>
+          <p class="ateliers__lead" data-fade>Dört atölye ayrı marka değildir. Aynı çatı fikre katkı veren uzmanlık alanlarıdır. Kapsam ihtiyaca göre belirlenir.</p>
+        </header>
+        <ul class="ateliers__list">
+          <li class="atelier" data-img="saha">
+            <span class="atelier__code">1A</span>
+            <h3 class="atelier__name">Reklam &amp; Kreatif</h3>
+            <p class="atelier__text">Markanın söyleyeceği şeyi yaratıcı fikre ve uygulamalara dönüştürür.</p>
+          </li>
+          <li class="atelier" data-img="sonuc">
+            <span class="atelier__code">2A</span>
+            <h3 class="atelier__name">PR &amp; İtibar</h3>
+            <p class="atelier__text">Markanın söylediğiyle yaptığı arasındaki tutarlılığı, ilgili paydaşları da dikkate alarak çalışıyoruz.</p>
+          </li>
+          <li class="atelier" data-img="yuzey-detay-2">
+            <span class="atelier__code">3A</span>
+            <h3 class="atelier__name">Deneyim &amp; Aktivasyon</h3>
+            <p class="atelier__text">Ortak fikrin fiziksel ve dijital temaslarda nasıl deneyimleneceğini planlıyoruz.</p>
+          </li>
+          <li class="atelier" data-img="baglam">
+            <span class="atelier__code">4A</span>
+            <h3 class="atelier__name">Kültür &amp; İK</h3>
+            <p class="atelier__text">İç iletişimi ve çalışan deneyimini, marka amacıyla birlikte değerlendiriyoruz.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hizmetler: açık zemin, açılır satırlar, imleci izleyen görsel -->
+    <section class="services" id="hizmetler">
+      <div class="wrap">
+        <header class="services__head">
+          <h2 class="title" data-lines>Ne yapıyoruz?</h2>
+          <p class="services__lead" data-fade>Paketler işletmenin büyüklüğüne göre değil; işin amacına, kapsamına ve beklenen teslimlere göre kurulur. Tek bir hizmet, bir alt paket veya birleşik bir kapsam seçilebilir.</p>
+        </header>
+        <div class="packs">
+          <article class="pack" data-img="img/eylem-hd.jpg">
+            <button class="pack__row" aria-expanded="false" data-cursor="Aç">
+              <span class="pack__title">Marka Stratejisi ve Dönüşüm</span>
+              <span class="pack__meta">Proje / danışmanlık</span>
+              <span class="pack__plus" aria-hidden="true"></span>
+            </button>
+            <div class="pack__body">
+              <div class="pack__content">
+                <p>Bir markanın kimliğini, konumlandırmasını, pazarlama yönünü ve gerektiğinde kurum içi işleyişini tutarlı bir yapıya dönüştürmek.</p>
+                <ul class="chips"><li>Marka Kuruluşu</li><li>Yeniden Konumlandırma ve Marka Yenileme</li><li>Marka Dönüşüm Sistemi</li><li>Stratejik Marka Danışmanlığı</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="pack" data-img="img/saha-hd.jpg">
+            <button class="pack__row" aria-expanded="false" data-cursor="Aç">
+              <span class="pack__title">Reklam, Kampanya ve İletişim</span>
+              <span class="pack__meta">Proje / kampanya</span>
+              <span class="pack__plus" aria-hidden="true"></span>
+            </button>
+            <div class="pack__body">
+              <div class="pack__content">
+                <p>Mevcut marka stratejisini belirli bir pazarlama, iletişim, itibar veya deneyim hedefine dönüştürmek.</p>
+                <ul class="chips"><li>Kampanya Stratejisi ve Yaratıcı Konsept</li><li>Dijital Kampanya ve Performans</li><li>PR ve İtibar İletişimi</li><li>Etkinlik ve Marka Aktivasyonu</li><li>Bütünleşik Reklam ve Lansman</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="pack" data-img="img/yuzey-detay-hd.jpg">
+            <button class="pack__row" aria-expanded="false" data-cursor="Aç">
+              <span class="pack__title">Kreatif, Prodüksiyon ve Dijital Çözümler</span>
+              <span class="pack__meta">Proje / üretim</span>
+              <span class="pack__plus" aria-hidden="true"></span>
+            </button>
+            <div class="pack__body">
+              <div class="pack__content">
+                <p>Belirlenmiş bir marka veya iletişim ihtiyacını yaratıcı, teknik ve dijital çıktılara dönüştürmek.</p>
+                <ul class="chips"><li>Görsel Kimlik ve Grafik Tasarım</li><li>Film, Video ve Motion Prodüksiyon</li><li>Web, Yazılım ve Dijital Ürün</li><li>3D, Görselleştirme ve Etkileşimli İçerik</li><li>Çok Mecralı Kreatif Üretim</li></ul>
+              </div>
+            </div>
+          </article>
+          <article class="pack" data-img="img/defter-kapak-hd.jpg">
+            <button class="pack__row" aria-expanded="false" data-cursor="Aç">
+              <span class="pack__title">Sürekli Marka ve İletişim Yönetimi</span>
+              <span class="pack__meta">Aylık / dönemsel</span>
+              <span class="pack__plus" aria-hidden="true"></span>
+            </button>
+            <div class="pack__body">
+              <div class="pack__content">
+                <p>İhtiyaç duyulan stratejik, yaratıcı ve iletişim hizmetlerini belirli bir dönem boyunca planlı ve koordineli biçimde yürütmek.</p>
+                <ul class="chips"><li>Sürekli Stratejik Danışmanlık</li><li>Sürekli Dijital ve Kreatif İletişim</li><li>Sürekli PR ve Kurumsal İletişim</li><li>Bütünleşik Marka Ortaklığı</li></ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="float-img" aria-hidden="true"><img alt="" /></div>
+    </section>
+
+    <!-- Karar anı: tek cümle, ardından soru -->
+    <section class="decision">
+      <div class="decision__sticky">
+        <p class="decision__said">“Beğendim.”</p>
+        <div class="decision__ask">
+          <p class="decision__pre">Bu cümlenin yanına bir soru eklenebilir:</p>
+          <p class="decision__q">Hedeflediğimiz etkiyi destekliyor mu?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- İlkeler: beyaz zemin, dosya görseliyle -->
+    <section class="principles" id="ilkeler">
+      <div class="wrap principles__grid">
+        <div class="principles__side">
+          <h2 class="title" data-lines>Güveni doğru bilgiyle kurarız.</h2>
+          <figure class="principles__media" data-parallax>
+            <img src="./img/dosya-acilis-hd.jpg" alt="NPA dosyası: Neyi, neden değiştiriyoruz? ve Kararın gerekçesi yazan sayfalar" loading="lazy" />
+          </figure>
+        </div>
+        <div class="principles__list">
+          <article class="principle" data-fade>
+            <h3>Bulgu, yorum, öneri</h3>
+            <p>Üçü ayrı belirtilir. “Bilmiyoruz” denebilecek yerde kesinlik üretmeyiz.</p>
+          </article>
+          <article class="principle" data-fade>
+            <h3>Ölçüt baştan konur</h3>
+            <p>Taahhüdümüzü kapsam, teslim tarihi ve değerlendirme ölçütleri üzerinden netleştiririz. Hedef ile sonuç ayrı tutulur.</p>
+          </article>
+          <article class="principle" data-fade>
+            <h3>Teknolojide açıklık</h3>
+            <p>Araştırma, değerlendirme ve üretimde yapay zekâ araçlarından yararlanıyoruz. Araçların çıktısını insanlar değerlendiriyor; stratejik karar ve son onayın sorumluluğu bizde.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kapanış: açılıştaki yüzeye dönülür -->
+    <section class="contact" id="iletisim" data-stage="yuzey-detay" data-dim="0.8">
+      <div class="wrap contact__inner">
+        <h2 class="contact__title">
+          <span class="contact__line" data-chars>Neyi, neden</span>
+          <span class="contact__line contact__line--indent" data-chars>değiştiriyoruz?</span>
+        </h2>
+        <div class="contact__row">
+          <p class="contact__lead" data-fade>Bu soruyla başlayalım. Kısa bir görüşmede ihtiyacı birlikte netleştirir, sonraki adımı ve tarihini belirleriz.</p>
+          <a class="cta" href="mailto:hello@nicheprojectagency.com?subject=Kapsam%20de%C4%9Ferlendirmesi" data-cursor="Yaz">
+            <span class="cta__text">Keşif görüşmesi planlayın</span>
+            <span class="cta__arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" /></svg></span>
+          </a>
+        </div>
+        <div class="contact__grid">
+          <a class="contact__item" href="mailto:hello@nicheprojectagency.com"><span>E-posta</span><strong>hello@nicheprojectagency.com</strong></a>
+          <a class="contact__item" href="tel:+905374865082"><span>Telefon</span><strong>0537 486 5082</strong></a>
+          <div class="contact__item"><span>Konum</span><strong>Adapazarı / Sakarya</strong></div>
+        </div>
+      </div>
+      <footer class="footer">
+        <img class="footer__logo" src="./logo/NPA_Yatay_Beyaz_Master.svg" alt="NPA" width="1266" height="360" />
+        <div class="footer__row wrap">
+          <span>Niche Project Agency · Marka Dönüşüm Merkezi</span>
+          <span>© 2026 NPA</span>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="../switcher.js" defer></script>
+</body>
+</html>
