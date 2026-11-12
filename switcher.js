@@ -2,6 +2,7 @@
 // sayfasına eklenir; sitenin kendi kodunda yer almaz. Stiller gölge DOM içinde kalır.
 (() => {
   const DESIGNS = [
+    { slug: 'butun', name: 'Bütün', note: 'Son tasarım: dördünün birleşimi' },
     { slug: 'yuzey', name: 'Yüzey', note: 'Beyaz kapak, görselden süren iz' },
     { slug: 'ufuk', name: 'Ufuk', note: 'Yatay yolculuk, ufuk çizgisi' },
     { slug: 'iz', name: 'İz', note: 'Şeritlerde akan çizgi' },
