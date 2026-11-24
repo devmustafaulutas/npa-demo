@@ -2,12 +2,11 @@
 
 > NPA, stratejik pazarlama ve bütünleşik iletişim ajansıdır. Markanın mevcut durumunu ve ihtiyacını inceler, ortak fikri ilgili mecralarda uzmanlarla birlikte hayata geçirir.
 
-## Sayfa
+## Sayfalar
 
-- [Yaklaşım](./#yaklasim): Marka Dönüşüm Merkezi yaklaşımı ve manifesto
-- [Çalışma](./#calisma): Çalışmanın kapsamı ve aşamaları
-- [Atölyeler](./#atolyeler): Reklam ve Kreatif, PR ve İtibar, Dijital, Kültür ve İK
-- [Hizmetler](./#hizmetler): Hizmet paketleri ve tüm uzmanlık alanları
-- [Teklif](./#teklif): Bir teklifte yer alan başlıklar
-- [İlkeler](./#ilkeler): Çalışma ilkeleri
-- [İletişim](./#iletisim): Görüşme planlama
+- [Ana sayfa](./): NPA'nın kısa anlatımı ve diğer sayfalara giriş
+- [Yaklaşım](./yaklasim.html): Marka Dönüşüm Merkezi yaklaşımı, marka tavrı ve güven ilkeleri
+- [Çalışma](./calisma.html): Çalışmanın aşamaları, temsili proje, bir teklifte yer alan başlıklar
+- [Atölyeler](./atolyeler.html): Reklam ve Kreatif, PR ve İtibar, Deneyim ve Aktivasyon, Kültür ve İK
+- [Hizmetler](./hizmetler.html): Hizmet paketleri ve tüm uzmanlık alanları
+- [İletişim](./iletisim.html): Görüşme planlama
