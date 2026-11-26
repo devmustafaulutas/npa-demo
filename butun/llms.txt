@@ -1,12 +1,20 @@
 # NPA / Marka Dönüşüm Merkezi
 
-> NPA, stratejik pazarlama ve bütünleşik iletişim ajansıdır. Markanın mevcut durumunu ve ihtiyacını inceler, ortak fikri ilgili mecralarda uzmanlarla birlikte hayata geçirir.
+> NPA, stratejik pazarlama ve bütünleşik iletişim ajansıdır. Marka stratejisi, reklam ve kampanya, tasarım ve prodüksiyon, web ve dijital çözümler ile sürekli iletişim yönetimi alanlarında çalışır. Önce markanın mevcut durumunu ve ihtiyacını inceler, ardından ortak fikri ilgili uzmanlıklarda hayata geçirir.
 
 ## Sayfalar
 
 - [Ana sayfa](./): NPA'nın kısa anlatımı ve diğer sayfalara giriş
 - [Yaklaşım](./yaklasim.html): Marka Dönüşüm Merkezi yaklaşımı, marka tavrı ve güven ilkeleri
-- [Çalışma](./calisma.html): Çalışmanın aşamaları, temsili proje, bir teklifte yer alan başlıklar
+- [Çalışma](./calisma.html): Keşif, strateji ve uygulama aşamaları, temsili proje, bir teklifte yer alan on başlık
 - [Atölyeler](./atolyeler.html): Reklam ve Kreatif, PR ve İtibar, Deneyim ve Aktivasyon, Kültür ve İK
 - [Hizmetler](./hizmetler.html): Hizmet paketleri ve tüm uzmanlık alanları
+- [Blog](./blog.html): Marka, iletişim ve karar üzerine kısa yazılar
 - [İletişim](./iletisim.html): Görüşme planlama
+
+## Blog yazıları
+
+- [Beğenmek karar değildir.](./blog-begenmek-karar-degildir.html): NPA manifestosu
+- [Bir marka sürekli kendini anlatıyorsa, bir yerde bir şey kaçırıyordur.](./blog-marka-surekli-kendini-anlatiyorsa.html): Dijitalde fazla anlatmak ile hissettirmek arasındaki fark
+- [İndirim neden her zaman iyi bir fikir gibi gelir?](./blog-indirim-neden-iyi-bir-fikir-gibi-gelir.html): İndirim bir strateji değil, bir araçtır
+- [Değişen SEO: yeni dönemde aranmak ve seçilmek ne anlama geliyor?](./blog-degisen-seo.html): SEO ve GEO
